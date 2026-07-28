@@ -4,8 +4,6 @@ import Link from 'next/link';
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-900 selection:text-white">
-      
-      {/* Navigation */}
       <nav className="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto border-b border-slate-200">
         <div className="text-2xl font-bold tracking-tighter text-slate-900">
           <Link href="/">Paradigm GEO<span className="text-blue-700">.</span></Link>
@@ -21,169 +19,88 @@ export default function ServicesPage() {
         </Link>
       </nav>
 
-      {/* Hero Section */}
-      <section className="px-8 py-20 md:py-28 max-w-7xl mx-auto flex flex-col items-start border-b border-slate-200">
-        <span className="text-blue-700 font-semibold tracking-wide uppercase text-sm mb-4">Methodology & Execution</span>
+      <section className="px-8 py-24 md:py-32 max-w-7xl mx-auto flex flex-col items-start border-b border-slate-200">
+        <span className="text-blue-700 font-semibold tracking-wide uppercase text-sm mb-4">Proprietary Framework</span>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6 max-w-4xl">
-          Architecting Your <br className="hidden md:block"/> Digital Entity.
+          Enterprise-Grade Generative Engine Optimization.
         </h1>
-        <p className="text-xl md:text-2xl text-slate-600 mb-10 max-w-3xl leading-relaxed">
-          We offer a proprietary, enterprise-grade framework designed to systematically improve your brand's digital entity footprint.
+        <p className="text-xl md:text-2xl text-slate-600 max-w-3xl leading-relaxed">
+          We offer a proprietary framework designed to systematically improve your brand's digital entity footprint.
         </p>
       </section>
 
-      {/* Primary Services Section */}
-      <section className="px-8 py-24 max-w-7xl mx-auto">
+      <section className="px-8 py-24 max-w-7xl mx-auto border-b border-slate-200">
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Core GEO Services [cite: 279]</h2>
-          <p className="text-lg text-slate-600 max-w-2xl">
-            Our primary consulting frameworks are built to align your brand presence with Large Language Model retrieval processes.
-          </p>
+          <h2 className="text-3xl font-bold tracking-tight text-slate-900">Primary Consulting Services</h2>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          
-          {/* Service 1 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">1. AI Visibility Audit [cite: 279]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Understand how AI platforms currently represent a brand[cite: 279].
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Deliverables [cite: 280]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Brand mentions in AI tools [cite: 280]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Citation analysis [cite: 280]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Competitor comparison [cite: 280]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Entity strength assessment [cite: 280]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> AI search performance report [cite: 280]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Improvement roadmap [cite: 280]</li>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">1. AI Visibility Audit</h3>
+            <p className="text-slate-600 text-sm mb-4">Understand how AI platforms currently represent a brand.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• Brand mentions in AI tools</li>
+              <li>• Citation analysis</li>
+              <li>• Competitor comparison</li>
+              <li>• Entity strength assessment</li>
+              <li>• Improvement roadmap</li>
             </ul>
           </div>
 
-          {/* Service 2 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">2. AI Search Optimisation [cite: 280]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Optimise websites and content so AI systems can better understand and reference them[cite: 280].
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Includes [cite: 281]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Content restructuring [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Semantic optimisation [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Entity optimisation [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Schema markup [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Internal linking [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Topic clustering [cite: 281]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Knowledge graph alignment [cite: 281]</li>
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">2. AI Search Optimisation</h3>
+            <p className="text-slate-600 text-sm mb-4">Optimise websites and content so AI systems can better understand and reference them.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• Content restructuring</li>
+              <li>• Semantic & entity optimisation</li>
+              <li>• Schema markup & topic clustering</li>
+              <li>• Knowledge graph alignment</li>
             </ul>
           </div>
 
-          {/* Service 3 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">3. AI Citation Strategy [cite: 282]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Increase the likelihood that AI systems cite your brand by strengthening its presence across trusted sources[cite: 282].
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Includes [cite: 283]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Authoritative content creation [cite: 283]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Digital PR [cite: 283]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Industry directory optimisation [cite: 283]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Expert contribution opportunities [cite: 283]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Consistent brand information across the web [cite: 283]</li>
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">3. AI Citation Strategy</h3>
+            <p className="text-slate-600 text-sm mb-4">Increase the likelihood that AI systems cite your brand across trusted sources.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• Authoritative content creation</li>
+              <li>• Digital PR</li>
+              <li>• Industry directory optimisation</li>
+              <li>• Expert contribution opportunities</li>
             </ul>
           </div>
 
-          {/* Service 4 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">4. Entity Optimisation [cite: 283]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Build a strong digital identity for your brand[cite: 283].
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Includes [cite: 284]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Brand entity development [cite: 284]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Person and organisation schema [cite: 284]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Consistent brand profiles [cite: 284]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Knowledge panel improvements [cite: 284]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Structured data implementation [cite: 284]</li>
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">4. Entity Optimisation</h3>
+            <p className="text-slate-600 text-sm mb-4">Build a strong, structured digital identity for your brand.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• Brand entity development</li>
+              <li>• Person & organization schema</li>
+              <li>• Knowledge panel improvements</li>
             </ul>
           </div>
 
-          {/* Service 5 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">5. AI Content Strategy [cite: 284]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Create content designed to answer real user questions and support AI retrieval[cite: 284].
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Includes [cite: 285]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Question-based content [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Topic clusters [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Comparison pages [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Evergreen resources [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> FAQs [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Expert guides [cite: 285]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Industry glossaries [cite: 285]</li>
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">5. AI Content Strategy</h3>
+            <p className="text-slate-600 text-sm mb-4">Create content designed to answer real user questions and support AI retrieval.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• Question-based content</li>
+              <li>• Comparison pages & FAQs</li>
+              <li>• Expert guides & industry glossaries</li>
             </ul>
           </div>
 
-          {/* Service 6 */}
-          <div className="bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-2xl font-bold mb-3">6. GEO Monitoring & Reporting [cite: 286]</h3>
-            <p className="text-slate-600 mb-6 leading-relaxed">
-              Track AI visibility over time[cite: 286]. 
-            </p>
-            <h4 className="font-semibold text-sm uppercase tracking-wide text-slate-900 mb-3">Reports could include [cite: 286]</h4>
-            <ul className="space-y-2 text-slate-600 text-sm">
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> AI citation frequency [cite: 286]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Brand mentions in AI responses [cite: 286]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Competitor visibility [cite: 286]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Search trend changes [cite: 286]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Content performance [cite: 286]</li>
-              <li className="flex items-start"><span className="text-blue-700 mr-2">✓</span> Recommendations for improvement [cite: 286]</li>
-            </ul>
-          </div>
-
-        </div>
-      </section>
-
-      {/* Supporting Services Section */}
-      <section className="bg-slate-900 text-white py-24">
-        <div className="px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Supporting Services [cite: 286]</h2>
-            <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-              These support your GEO work rather than being the headline offering[cite: 286]. At Paradigm GEO, we utilize traditional technical search mechanisms strictly as a foundational layer to advance your generative visibility.
-            </p>
-          </div>
-          <div className="bg-slate-800 p-10 rounded-xl border border-slate-700">
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-slate-300">
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Technical SEO [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Schema markup [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Core Web Vitals [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Local SEO [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Content optimisation [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> Digital PR [cite: 287]</li>
-              <li className="flex items-center"><span className="text-blue-500 mr-3">■</span> E-E-A-T improvements [cite: 287]</li>
+          <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-slate-900">6. GEO Monitoring</h3>
+            <p className="text-slate-600 text-sm mb-4">Track AI visibility and share of voice over time.</p>
+            <ul className="text-xs text-slate-500 space-y-2">
+              <li>• AI citation frequency</li>
+              <li>• Competitor visibility metrics</li>
+              <li>• Continuous improvement roadmap</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="px-8 py-24 max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6 text-slate-900">Ready to audit your AI visibility?</h2>
-        <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
-          Schedule a preliminary assessment to map your current entity standing across ChatGPT, Gemini, and Claude.
-        </p>
-        <Link href="/contact" className="inline-block bg-blue-700 text-white px-10 py-4 text-lg font-medium rounded shadow-lg hover:bg-blue-800 transition-all">
-          Book Your Assessment
-        </Link>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-50 border-t border-slate-200 py-12 px-8">
+      <footer className="bg-slate-50 py-12 px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <div className="mb-4 md:mb-0 font-bold text-slate-900 text-lg">
             Paradigm GEO<span className="text-blue-700">.</span>
@@ -193,7 +110,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </footer>
-
     </div>
   );
 }
