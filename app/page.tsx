@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-900 selection:text-white">
       
       {/* Navigation */}
-      <nav className="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+      <nav className="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto border-b border-slate-200">
         <div className="text-2xl font-bold tracking-tighter text-slate-900">
           Paradigm GEO<span className="text-blue-700">.</span>
         </div>
@@ -15,6 +15,8 @@ export default function HomePage() {
           <Link href="/services" className="hover:text-slate-900 transition-colors">GEO Services</Link>
           <Link href="/industries" className="hover:text-slate-900 transition-colors">Industries</Link>
           <Link href="/pricing" className="hover:text-slate-900 transition-colors">Pricing</Link>
+          <Link href="/insights" className="hover:text-slate-900 transition-colors">Insights</Link>
+          <Link href="/case-studies" className="hover:text-slate-900 transition-colors">Case Studies</Link>
         </div>
         <Link href="/contact" className="bg-slate-900 text-white px-5 py-2.5 text-sm font-medium rounded hover:bg-slate-800 transition-colors">
           Book Discovery Call
@@ -80,25 +82,21 @@ export default function HomePage() {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Audit */}
           <div className="p-8 bg-white border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-blue-50 text-blue-700 rounded flex items-center justify-center font-bold text-xl mb-6">1</div>
             <h3 className="text-xl font-bold mb-3">Audit</h3>
             <p className="text-slate-600 text-sm leading-relaxed">We understand how AI platforms currently represent your brand by conducting rigorous prompt-based visibility testing.</p>
           </div>
-          {/* Optimise */}
           <div className="p-8 bg-white border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-blue-50 text-blue-700 rounded flex items-center justify-center font-bold text-xl mb-6">2</div>
             <h3 className="text-xl font-bold mb-3">Optimise</h3>
             <p className="text-slate-600 text-sm leading-relaxed">We restructure content and technical foundations (Schema, Knowledge Graph) to ensure AI systems can better understand and reference them.</p>
           </div>
-          {/* Build Authority */}
           <div className="p-8 bg-white border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-blue-50 text-blue-700 rounded flex items-center justify-center font-bold text-xl mb-6">3</div>
             <h3 className="text-xl font-bold mb-3">Build Authority</h3>
             <p className="text-slate-600 text-sm leading-relaxed">We strengthen digital PR and industry citations in high-trust hubs to solidify digital validation.</p>
           </div>
-          {/* Measure */}
           <div className="p-8 bg-white border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-blue-50 text-blue-700 rounded flex items-center justify-center font-bold text-xl mb-6">4</div>
             <h3 className="text-xl font-bold mb-3">Measure</h3>
@@ -138,19 +136,6 @@ export default function HomePage() {
               </li>
             </ul>
           </div>
-        </div>
-      </section>
-
-      {/* Results / Testimonials Placeholder */}
-      <section className="px-8 py-24 max-w-7xl mx-auto bg-white">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Data-Backed Proof of Entity Growth</h2>
-          <p className="text-lg text-slate-600">See how we transform traditional search footprints into dominant AI share-of-voice.</p>
-        </div>
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-12 text-center text-slate-500">
-           {/* Replace this div with real case studies, metrics, and testimonials as you build them. */}
-           <p className="font-medium text-lg">Case Studies & Metrics Dashboard</p>
-           <p className="text-sm mt-2">Displaying shifts in AI citation frequency and knowledge panel triggering.</p>
         </div>
       </section>
 
